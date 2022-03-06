@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <h1>Orden:</h1><br>
+    <div class="logo">
+        <img src="LogoPastel.png" height="150px" width="150px" >
+    </div><br>
+    <div class="datos">
+    <h2>Datos del cliente:</h2><br>
+    <form action="PedidoPasteleria.js"></form>
+    <label for="Nombre">Nombre:</label><br>
+    <input type="text"  name="Nombre" id="Nombre" placeholder="Nombre" >
+    <br><br>
+    <label for="Tel">Teléfono:</label><br>
+    <input type="text"  name="Ten" id="Ten" placeholder="Teléfono" >
+    <br><br>
+    <label for="Correo">Correo electrónico:</label><br>
+    <input type="text"  name="Correo" id="Correo" placeholder="Correo" >
+    <br><br>
+    </div>
+    <br>
+    <h2>Sabor del pastel:</h2>
+    <div class="datos"><br>
+    <input type="radio" id="Chocolate" name="bizcocho" value="Roja">
+    <label for="Chocolate">Chocolate</label><br>
+    <input type="radio" id="Nuez" name="bizcocho" value="Nuez">
+    <label for="Nuez">Nuez</label><br>
+    <input type="radio" id="Fresa" name="bizcocho" value="Fresa">
+    <label for="Fresa">Fresa</label><br>
+    <input type="radio" id="Limón" name="bizcocho" value="Limón">
+    <label for="Limón">Limón</label><br>
+    <input type="radio" id="Moka" name="bizcocho" value="Moka">
+    <label for="Moka">Moka</label><br>
+    <input type="radio" id="Queso" name="bizcocho" value="Queso">
+    <label for="Queso">Queso</label><br>
+    <input type="radio" id="leches" name="bizcocho" value="leches">
+    <label for="leches">3 leches</label><br>
+    <input type="radio" id="Zanahoria" name="bizcocho" value="Zanahoria">
+    <label for="Zanahoria">Zanahoria</label><br>
+    </div><br>
+    <h2>Topping:</h2>
+    <div class="datos"><br>
+    <input type="checkbox" id="topping1" name="topping1" value="nuez">
+    <label for="topping1">Nuez</label><br>
+    <input type="checkbox" id="topping2" name="topping2" value="derretido">
+    <label for="topping2">Chocolate derretido</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="fresa">
+    <label for="topping3">Mermelada de fresa</label><br>
+    <input type="checkbox" id="topping4" name="topping4" value="limon">
+    <label for="topping4">Rayadura de limón </label><br>
+    <input type="checkbox" id="topping5" name="topping5" value="cafe">
+    <label for="topping5">Escarchado de café</label><br>
+    <input type="checkbox" id="topping6" name="topping6" value="zanahoria">
+    <label for="topping6">Zanahoria</label><br>
+    <input type="checkbox" id="topping7" name="topping7" value="fruta">
+    <label for="topping7">Fruta fresca</label><br>
+    <input type="checkbox" id="topping8" name="topping8" value="galleta">
+    <label for="topping8">Galletas molidas</label><br>
+    </div>
+    <br>
+    <h2>Descripción extra del pastel (Opcional):</h2>
+    <div class="datos"><br>
+    <label for="descripcion">Detalles</label>
+    <input type="descripcion" id="descripcion" name="descripcion"><br><br>
+    
+    </div>
+    <div class="datos">
+    <h2>Terminar orden:</h2><br>
+    <input type="button" id="boton1" name="boton1" value="Enviar orden" onclick="alert('PEDIDO REALIZADO');"><br><br>
+    <br><br>
+    </div>
+
+
+
+
+</body>
+</html>

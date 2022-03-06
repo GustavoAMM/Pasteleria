@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    margin: 0;
+}
+label{
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.datos{
+    text-align: center;
+}
+
+table{
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+body{
+    background: black;
+    
+}
+form{
+    justify-content: center;
+}
+h1{
+    color: rgb(253, 0, 0);
+    font-size: 2em;
+    text-align: center;
+}
+img{
+    justify-content: center;
+}
+h2{
+    color: rgba(0, 255, 255, 0.795);
+    text-align: center;
+    
+}
+a{
+    justify-content: center;
+}
+input{
+    justify-content: center;
+    text-align: center;
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+.logo{
+    display:flex ;
+    justify-content: center;
+}
+
+td 
+{
+border: 1px solid negro; 
+}
+table
+{
+border-collapse: collapse;
+}
+td, th /* Poner borde en td y th */
+{
+border: 1px solid black;
+}
+
+
